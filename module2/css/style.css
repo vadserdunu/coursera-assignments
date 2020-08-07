@@ -1,0 +1,109 @@
+* {
+	box-sizing: border-box;
+	font-family: Montserrat;
+	font-size: 100%;
+}
+h1 {
+	text-align: center;
+	margin-bottom: 15px;
+	font-size: 175%;
+}
+
+p {
+	width: 100%;
+	height: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 20px 10px 0px 10px;
+	color: #696969;
+	overflow: hidden;
+}
+
+.row {
+  width: 100%;
+}
+
+.section {
+margin: 20px;
+border: 1px solid black;
+background-color: #fff8e7;
+position: relative;
+}
+
+.header1 {
+	border-bottom: 1px solid black;
+	border-left: 1px solid black;
+	padding: 3px;
+	width: 95px;
+	height: 30px;
+	text-align: center;
+	background-color: #cbbac5;
+	color: black;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	font-size: 125%
+}
+
+.header2 {
+	border-bottom: 1px solid black;
+	border-left: 1px solid black;
+	padding: 3px;
+	width: 70px;
+	height: 30px;
+	text-align: center;
+	background-color: #d8bfd8;
+	color: black;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	font-size: 125%;
+}
+
+.header3 {
+	border-bottom: 1px solid black;
+	border-left: 1px solid black;
+	padding: 3px;
+	width: 70px;
+	height: 30px;
+	text-align: center;
+	background-color: #ebc7df;
+	color: black;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	font-size: 125%;
+}
+
+
+@media (min-width: 992px) {
+	.col-lg-4
+	{
+		float: left;
+	}
+
+  .col-lg-4 {
+    width: 33.33%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.col-md-6, .col-md-12 {
+		float: left;
+	}
+  .col-md-6 {
+    width: 50%;
+  }
+  .col-md-12 {
+    width: 100%;
+  }
+}
+@media (max-width: 767px) {
+	.col-sm-12 {
+		float: left;
+	}
+  .col-sm-12 {
+    width: 100%;
+  }
+}
+ 
